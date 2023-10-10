@@ -9,7 +9,7 @@ class TDataFrame:
         self.vehicle = filename.split("_")[1]
 
         # line data
-        self.line = str((df.loc[:, "IS_Cislo_sluzby"]).head(1).iloc[0])
+        self.line = str((df.loc[:, "IS_Cislo_sluzby"]).value_counts().idxmax())
         try:
             self.line_num = int(self.line[0])
             self.line_order = int(self.line[1])
