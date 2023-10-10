@@ -20,11 +20,41 @@ class TDataFrame:
             self.line_mode = 0
 
         # geo data
-        self.ll = df.get(["IS_Latitude", "IS_Longitude", "NudzBr_1"]).dropna()
+        self.ll = df.get(
+            [
+                "IS_Latitude",
+                "IS_Longitude",
+                "NudzBr_1",
+                "Time",
+                "Velocity",
+                "IS_Cislo_sluzby",
+            ]
+        ).dropna()
+
+        emb = self.ll.loc[df["NudzBr_1"] == 1]
         self.emb = list(
             zip(
-                self.ll.loc[df["NudzBr_1"] == 1]["IS_Latitude"],
-                self.ll.loc[df["NudzBr_1"] == 1]["IS_Longitude"],
+                emb["IS_Latitude"],
+                emb["IS_Longitude"],
+                emb["Time"],
+                emb["Velocity"],
+                emb["IS_Cislo_sluzby"],
             )
         )
+
         # self.bell = list(self.ll.loc[df['NudzBr_1'] == 1].drop(columns=['NudzBr_1']).to_records(index=False))
+
+    # getters
+    def get_lls(self, input):
+        output = []
+        for i in input:
+            output.append((i[0], i[1]))
+        return output
+
+    def get_popups(self, input):
+        output = []
+        for i in input:
+            output.append(
+                f"Time: {i[2]}<br>Line: {i[4]}<br>Vehicle: {self.vehicle}<br>Velocity: {i[3]}"
+            )
+        return output
