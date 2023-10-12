@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import time
 
 from TDataType import TDataType as tdt
 
@@ -22,6 +23,12 @@ class TDataFrame:
             self.line_num = 0
             self.line_order = 0
             self.line_mode = 0
+
+        # date-time conversion
+        self.date = time.strptime(self.date, "%d.%m.%Y")
+        self.df.loc[:, "Time"] = self.df["Time"].apply(
+            lambda x: time.strptime(x, "%H:%M:%S,%f")
+        )
 
         # geo data
         self.rows = df.get(
@@ -52,11 +59,16 @@ class TDataFrame:
         }
 
     ####################
-    # row filter by type
-    def filter_rows(self, type):
+    # row filter by type and time
+    def filter_rows(self, type, timestamp):
         column_type = self.TDataTypeMapper.get(type, "")
         r = self.rows.loc[self.df[column_type] == 1]
 
+        # filter rows by time
+        t1, t2 = map(lambda time_str: time.strptime(time_str, "%H:%M:%S"), timestamp)
+        r = r.loc[(t1 <= r["Time"]) & (r["Time"] <= t2)]
+
+        # select relevant columns
         self.rows_filtered = list(
             zip(
                 r["IS_Latitude"],
