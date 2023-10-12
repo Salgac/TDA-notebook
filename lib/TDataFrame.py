@@ -7,6 +7,8 @@ from TDataType import TDataType as tdt
 class TDataFrame:
     def __init__(self, filename, df):
         self.df = df
+
+        # basic data
         self.date = filename.split("_")[2]
         self.vehicle = filename.split("_")[1]
 
@@ -22,54 +24,61 @@ class TDataFrame:
             self.line_mode = 0
 
         # geo data
-        self.ll = df.get(
+        self.rows = df.get(
             [
                 "IS_Latitude",
                 "IS_Longitude",
                 "NudzBr_1",
+                "NudzBr_2",
+                "Zvonec",
+                "KolBr_1",
+                "KolBr_2",
+                "Sklz_Smyk",
                 "Time",
                 "Velocity",
                 "IS_Cislo_sluzby",
             ]
         ).dropna()
+        self.rows_filtered = []
 
-        emb = self.ll.loc[df["NudzBr_1"] == 1]
-        self.emb = list(
+        # column data filter mapper
+        self.TDataTypeMapper = {
+            tdt.EMB_1: "NudzBr_1",
+            tdt.EMB_2: "NudzBr_2",
+            tdt.TRACKB_1: "KolBr_1",
+            tdt.TRACKB_2: "KolBr_2",
+            tdt.BELL: "Zvonec",
+            tdt.SLIP_SLIDE: "Sklz_Smyk",
+        }
+
+    ####################
+    # row filter by type
+    def filter_rows(self, type):
+        column_type = self.TDataTypeMapper.get(type, "")
+        r = self.rows.loc[self.df[column_type] == 1]
+
+        self.rows_filtered = list(
             zip(
-                emb["IS_Latitude"],
-                emb["IS_Longitude"],
-                emb["Time"],
-                emb["Velocity"],
-                emb["IS_Cislo_sluzby"],
+                r["IS_Latitude"],
+                r["IS_Longitude"],
+                r["Time"],
+                r["Velocity"],
+                r["IS_Cislo_sluzby"],
             )
         )
 
-        # self.bell = list(self.ll.loc[df['NudzBr_1'] == 1].drop(columns=['NudzBr_1']).to_records(index=False))
-
-        self.TDataTypeMapper = {
-            tdt.EMB_1: self.emb,
-            # tdt.EMB_2: ...    # TODO
-            # tdt.TRACKB_1: ... # TODO
-            # tdt.TRACKB_2: ... # TODO
-            # tdt.BELL: ...     # TODO
-            # tdt.SLIP_SLIDE: . # TODO
-        }
-
+    ###################
     # getters
-    def get_lls(self, type):
-        input = self.TDataTypeMapper.get(type, [])
-
+    def get_lat_lons(self):
         output = []
-        for i in input:
-            output.append((i[0], i[1]))
+        for r in self.rows_filtered:
+            output.append((r[0], r[1]))
         return output
 
-    def get_popups(self, type):
-        input = self.TDataTypeMapper.get(type, [])
-
+    def get_popups(self):
         output = []
-        for i in input:
+        for r in self.rows_filtered:
             output.append(
-                f"Date: {self.date}<br>Time: {i[2]}<br>Line: {i[4]}<br>Vehicle: {self.vehicle}<br>Velocity: {i[3]}"
+                f"Date: {self.date}<br>Time: {r[2]}<br>Line: {r[4]}<br>Vehicle: {self.vehicle}<br>Velocity: {r[3]}"
             )
         return output
