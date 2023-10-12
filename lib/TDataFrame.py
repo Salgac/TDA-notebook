@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
+from TDataType import TDataType as tdt
+
 
 class TDataFrame:
     def __init__(self, filename, df):
@@ -44,14 +46,27 @@ class TDataFrame:
 
         # self.bell = list(self.ll.loc[df['NudzBr_1'] == 1].drop(columns=['NudzBr_1']).to_records(index=False))
 
+        self.TDataTypeMapper = {
+            tdt.EMB_1: self.emb,
+            # tdt.EMB_2: ...    # TODO
+            # tdt.TRACKB_1: ... # TODO
+            # tdt.TRACKB_2: ... # TODO
+            # tdt.BELL: ...     # TODO
+            # tdt.SLIP_SLIDE: . # TODO
+        }
+
     # getters
-    def get_lls(self, input):
+    def get_lls(self, type):
+        input = self.TDataTypeMapper.get(type, [])
+
         output = []
         for i in input:
             output.append((i[0], i[1]))
         return output
 
-    def get_popups(self, input):
+    def get_popups(self, type):
+        input = self.TDataTypeMapper.get(type, [])
+
         output = []
         for i in input:
             output.append(

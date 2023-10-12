@@ -2,7 +2,7 @@ import pandas as pd
 import time
 
 
-def filter_tdfs(tdfs, line, date, vehicle):
+def filter_tdfs(tdfs, line, date, timestamp, vehicle):
     # line
     l1, l2, l3 = line
     data = tdfs if l1 == "*" else [df for df in tdfs if str(df.line_num) == l1]
@@ -15,5 +15,7 @@ def filter_tdfs(tdfs, line, date, vehicle):
 
     # vehicle
     data = data if vehicle == "*" else [df for df in data if df.vehicle == vehicle]
+
+    # time - # TODO
 
     return data
