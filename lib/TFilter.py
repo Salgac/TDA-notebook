@@ -2,7 +2,7 @@ import pandas as pd
 import time
 
 
-def filter_tdfs(dfs, line, date):
+def filter_tdfs(dfs, line, date, vehicle):
     # filter dfs by every setting
     filtered = dfs if line == "*" else [df for df in dfs if df.line_num == line]
 
@@ -10,6 +10,11 @@ def filter_tdfs(dfs, line, date):
     d1, d2 = map(lambda date_str: time.strptime(date_str, "%d.%m.%Y"), date)
     filtered = list(
         filter(lambda df: d1 <= time.strptime(df.date, "%d.%m.%Y") <= d2, filtered)
+    )
+
+    # vehicle
+    filtered = (
+        filtered if vehicle == "*" else [df for df in filtered if df.vehicle == vehicle]
     )
 
     return filtered
