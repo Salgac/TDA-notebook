@@ -12,7 +12,7 @@ class TDataFrame:
         self.line = str((df.loc[:, "IS_Cislo_sluzby"]).value_counts().idxmax())
         try:
             self.line_num = int(self.line[0])
-            self.line_order = int(self.line[1])
+            self.line_order = int(self.line[1] + self.line[2])
             self.line_mode = int(self.line[3])
         except ValueError:
             self.line_num = 0
@@ -55,6 +55,6 @@ class TDataFrame:
         output = []
         for i in input:
             output.append(
-                f"Time: {i[2]}<br>Line: {i[4]}<br>Vehicle: {self.vehicle}<br>Velocity: {i[3]}"
+                f"Date: {self.date}<br>Time: {i[2]}<br>Line: {i[4]}<br>Vehicle: {self.vehicle}<br>Velocity: {i[3]}"
             )
         return output
