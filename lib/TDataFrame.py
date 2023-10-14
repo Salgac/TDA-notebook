@@ -14,7 +14,11 @@ class TDataFrame:
         self.vehicle = filename.split("_")[1]
 
         # line data
-        self.line = str((df.loc[:, "IS_Cislo_sluzby"]).value_counts().idxmax())
+        mode_series = df["IS_Cislo_sluzby"].mode()
+        if not mode_series.empty:
+            self.line = str(mode_series.iloc[0])
+        else:
+            self.line = "0000"
         try:
             self.line_num = int(self.line[0])
             self.line_order = int(self.line[1] + self.line[2])
