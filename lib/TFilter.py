@@ -1,7 +1,6 @@
 import pandas as pd
 import time
 from geopy.distance import geodesic
-from shapely.geometry import Point
 from datetime import datetime
 from TEvent import TEvent
 
