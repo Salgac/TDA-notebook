@@ -1,5 +1,7 @@
 import pandas as pd
 import time
+from geopy.distance import geodesic
+from shapely.geometry import Point
 from datetime import datetime
 from TEvent import TEvent
 
@@ -43,3 +45,19 @@ def detect_events(data):
                 current_event.end_time = timestamp
 
     return events
+
+
+def filter_depo(events, settings):
+    # Specify the center coordinates and radius
+    center_coordinates = settings["c"]
+    radius_meters = settings["d"]
+
+    # filter
+    return [
+        event
+        for event in events
+        if not any(
+            geodesic(center_coordinates, (point[0], point[1])).meters <= radius_meters
+            for point in event.points
+        )
+    ]
