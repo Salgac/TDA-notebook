@@ -40,7 +40,7 @@ class TMap:
         # Create a MarkerCluster for events
         event_cluster = MarkerCluster()
         for event in events:
-            popup_content = f"Start: {event.start_time.strftime('%H:%M:%S')}, End: {event.end_time.strftime('%H:%M:%S')}"
+            popup_content = event.get_popup()
             event_cluster.add_child(
                 folium.Marker(
                     location=(event.points[0][0], event.points[0][1]),
