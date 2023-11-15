@@ -1,5 +1,7 @@
 import pandas as pd
 import time
+from datetime import datetime
+from TEvent import TEvent
 
 
 def filter_tdfs(tdfs, line, date, vehicle):
@@ -17,3 +19,27 @@ def filter_tdfs(tdfs, line, date, vehicle):
     data = data if vehicle == "*" else [df for df in data if df.vehicle == vehicle]
 
     return data
+
+
+def detect_events(data):
+    # for each TDataFrame extract events
+    time_window = pd.Timedelta(seconds=10)
+    events = []
+    for d in data:
+        current_event = None
+        for record in d.rows_filtered:
+            # Extract into TEvent
+            timestamp = datetime.fromtimestamp(time.mktime(record[2]))
+            if (
+                current_event is None
+                or (timestamp - current_event.end_time) > time_window
+            ):
+                # Start a new event
+                current_event = TEvent(timestamp, timestamp, [record])
+                events.append(current_event)
+            else:
+                # Add to the current event
+                current_event.points.append(record)
+                current_event.end_time = timestamp
+
+    return events
