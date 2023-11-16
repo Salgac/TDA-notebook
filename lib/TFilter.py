@@ -60,3 +60,7 @@ def filter_depo(events, settings):
             for point in event.points
         )
     ]
+
+
+def filter_zero(events):
+    return [event for event in events if not event.points[0][3] == 0]
