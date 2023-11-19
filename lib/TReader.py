@@ -26,7 +26,7 @@ class TReader:
 
             # limit
             i += 1
-            if i >= limit:
+            if limit > 0 and i >= limit:
                 break
 
         return ltdfs
