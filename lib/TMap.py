@@ -36,7 +36,7 @@ class TMap:
 
         self.n = n
 
-    def add_events(self, events, T_Depo):
+    def add_events(self, events):
         # Create a MarkerCluster for events
         event_cluster = MarkerCluster()
         for event in events:
@@ -57,12 +57,14 @@ class TMap:
         ]
         HeatMap(heatmap_data).add_to(self.m)
 
-        # Add a circle representing the filtered-out area
-        folium.Circle(
-            location=T_Depo["c"],
-            radius=T_Depo["d"],
-            color="transparent",
-            fill=True,
-            fill_color="red",
-            fill_opacity=0.2,
-        ).add_to(self.m)
+    def add_depo_zones(self, depos):
+        for depo_dict in depos:
+            # Add a circle representing the filtered-out area
+            folium.Circle(
+                location=depo_dict["c"],
+                radius=depo_dict["d"],
+                color="transparent",
+                fill=True,
+                fill_color="red",
+                fill_opacity=0.2,
+            ).add_to(self.m)

@@ -1,4 +1,5 @@
 import time
+from geopy.distance import geodesic
 
 from TDataType import TDataType as tdt
 
@@ -62,7 +63,7 @@ class TDataFrame:
         }
 
     ####################
-    # row filter by type and time
+    # row filters
     def filter_rows(self, type, timestamp):
         column_type = self.TDataTypeMapper.get(type, "")
         r = self.rows.loc[self.df[column_type] == 1]
@@ -81,6 +82,15 @@ class TDataFrame:
                 r["IS_Cislo_sluzby"],
             )
         )
+
+    def filter_depos(self, depos):
+        for depo_dict in depos:
+            self.rows_filtered = [
+                row
+                for row in self.rows_filtered
+                if not geodesic(depo_dict["c"], (row[0], row[1])).meters
+                <= depo_dict["d"]
+            ]
 
     ###################
     # getters
