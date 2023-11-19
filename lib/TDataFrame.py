@@ -93,6 +93,11 @@ class TDataFrame:
         output = []
         for r in self.rows_filtered:
             output.append(
-                f"Date: {time.strftime('%d.%m.%Y',self.date)}<br>Time: {time.strftime( '%H:%M:%S', r[2])}<br>Line: {r[4]}<br>Vehicle: {self.vehicle}<br>Velocity: {r[3]}"
+                f"""
+                    Date: {time.strftime('%d.%m.%Y',self.date)}<br>
+                    Time: {time.strftime( '%H:%M:%S', r[2])}<br>
+                    Line: {r[4]}<br>
+                    Vehicle: {self.vehicle}<br>
+                    Speed: {r[3]}"""
             )
         return output

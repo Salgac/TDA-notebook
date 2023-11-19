@@ -19,7 +19,9 @@ def detect_events(data):
                 or (timestamp - current_event.end_time) > time_window
             ):
                 # Start a new event
-                current_event = TEvent(timestamp, timestamp, [record])
+                current_event = TEvent(
+                    timestamp, timestamp, d.date, d.vehicle, [record]
+                )
                 events.append(current_event)
             else:
                 # Add to the current event
