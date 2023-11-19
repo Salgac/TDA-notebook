@@ -21,6 +21,7 @@ class TDataFrame:
             self.line_num = int(self.line[0])
             self.line_order = int(self.line[1] + self.line[2])
             self.line_mode = int(self.line[3])
+            self.line = int(self.line)
         except ValueError:
             self.line_num = 0
             self.line_order = 0
@@ -94,10 +95,37 @@ class TDataFrame:
         for r in self.rows_filtered:
             output.append(
                 f"""
-                    Date: {time.strftime('%d.%m.%Y',self.date)}<br>
-                    Time: {time.strftime( '%H:%M:%S', r[2])}<br>
-                    Line: {r[4]}<br>
-                    Vehicle: {self.vehicle}<br>
-                    Speed: {r[3]}"""
+                <table style="width: 150px;">
+                    <tr>
+                        <td>Date:</td>
+                        <td>{time.strftime('%d.%m.%Y', self.date)}</td>
+                    </tr>
+                    <tr>
+                        <td>Time:</td>
+                        <td>{time.strftime( '%H:%M:%S', r[2])}</td>
+                    </tr>
+                    <tr>
+                        <td>Line:</td>
+                        <td>{normalize_line(r[4])}</td>
+                    </tr>
+                    <tr>
+                        <td>Vehicle:</td>
+                        <td>{self.vehicle}</td>
+                    </tr>
+                    <tr>
+                        <td>Speed:</td>
+                        <td>{r[3]}</td>
+                    </tr>
+                </table>
+                """
             )
         return output
+
+
+def normalize_line(line):
+    l = line
+    try:
+        l = int(line)
+    except:
+        None
+    return l
