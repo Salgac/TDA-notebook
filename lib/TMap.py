@@ -1,4 +1,6 @@
+import time
 import folium
+import ast
 from folium.plugins import HeatMap
 from folium.plugins import MarkerCluster
 
@@ -43,7 +45,7 @@ class TMap:
             popup_content = event.get_popup()
             event_cluster.add_child(
                 folium.Marker(
-                    location=(event.points[0][0], event.points[0][1]),
+                    location=(event.points[-1][0], event.points[-1][1]),
                     popup=popup_content,
                 )
             )
@@ -57,12 +59,12 @@ class TMap:
         ]
         HeatMap(heatmap_data).add_to(self.m)
 
-    def add_depo_zones(self, depos):
-        for depo_dict in depos:
+    def add_filter_zones(self, zones):
+        for z in zones:
             # Add a circle representing the filtered-out area
             folium.Circle(
-                location=depo_dict["c"],
-                radius=depo_dict["d"],
+                location=ast.literal_eval(z["coords"]),
+                radius=z["distance"],
                 color="transparent",
                 fill=True,
                 fill_color="red",

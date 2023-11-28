@@ -1,4 +1,5 @@
 import time
+import ast
 from geopy.distance import geodesic
 
 from TDataType import TDataType as tdt
@@ -83,13 +84,13 @@ class TDataFrame:
             )
         )
 
-    def filter_depos(self, depos):
-        for depo_dict in depos:
+    def filter_zones(self, zones):
+        for z in zones:
             self.rows_filtered = [
                 row
                 for row in self.rows_filtered
-                if not geodesic(depo_dict["c"], (row[0], row[1])).meters
-                <= depo_dict["d"]
+                if not geodesic(ast.literal_eval(z["coords"]), (row[0], row[1])).meters
+                <= z["distance"]
             ]
 
     ###################

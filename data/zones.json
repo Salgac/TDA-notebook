@@ -1,0 +1,37 @@
+[
+  {
+    "zone": "Jurajov Dvor",
+    "coords": "(48.179637, 17.162346)",
+    "distance": 250
+  },
+  {
+    "zone": "Krasnany",
+    "coords": "(48.189719, 17.135237)",
+    "distance": 125
+  },
+  {
+    "zone": "Dubravka",
+    "coords": "(48.196068, 17.033417)",
+    "distance": 75
+  },
+  {
+    "zone": "Karlovka",
+    "coords": "(48.166650, 17.045956)",
+    "distance": 75
+  },
+  {
+    "zone": "Raca",
+    "coords": "(48.217203, 17.167746)",
+    "distance": 100
+  },
+  {
+    "zone": "Zlate Piesky",
+    "coords": "(48.189708, 17.184190)",
+    "distance": 75
+  },
+  {
+    "zone": "Ruzinov",
+    "coords": "(48.158861, 17.178590)",
+    "distance": 100
+  }
+]
