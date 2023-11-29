@@ -34,5 +34,9 @@ def filter_zero(events):
     return [event for event in events if not event.points[0][3] == 0]
 
 
+def filter_diff(events, limit):
+    return [event for event in events if event.speed_diff() >= limit]
+
+
 def filter_embs(events):
     return [event for event in events if event.points[-1][3] == 0]
