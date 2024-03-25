@@ -136,3 +136,4 @@ ui-tests/.pnp.*
 
 # project specific
 map.html
+data/output.json
