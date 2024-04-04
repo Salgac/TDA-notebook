@@ -1,5 +1,8 @@
 import folium
 import ast
+import io
+from PIL import Image
+from datetime import datetime
 from folium.plugins import HeatMap
 from folium.plugins import MarkerCluster
 
@@ -17,6 +20,11 @@ class TMap:
         # todo folium.LayerControl().add_to(self.m)
 
         self.m.save("map.html")
+
+    def save_png(self):
+        img_data = self.m._to_png(5)
+        img = Image.open(io.BytesIO(img_data))
+        img.save(f"data/img/map_{datetime.now().strftime('%Y%m%d-%H%M%S')}.png")
 
     ####################
     # adders

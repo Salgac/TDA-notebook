@@ -136,4 +136,5 @@ ui-tests/.pnp.*
 
 # project specific
 map.html
+geckodriver.log
 data/output.json
