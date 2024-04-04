@@ -1,4 +1,5 @@
 from datetime import datetime
+import pandas as pd
 import ast
 from geopy.distance import geodesic
 
@@ -10,7 +11,6 @@ class TDataFrame:
         self.df = df
 
         # basic data
-        self.date = filename.split("_")[2]
         self.vehicle = filename.split("_")[1]
 
         # line data
@@ -30,13 +30,17 @@ class TDataFrame:
             self.line_mode = 0
 
         # date-time conversion
-        self.date = datetime.strptime(self.date, "%d.%m.%Y")
+        self.df["Date"] = pd.to_datetime(df["Date"], format="%d.%m.%Y")
         self.df.loc[:, "Time"] = self.df["Time"].apply(
             lambda x: datetime.strptime(x, "%H:%M:%S,%f")
         )
+        self.df["Timestamp"] = self.df.apply(
+            lambda row: datetime.combine(row["Date"].date(), row["Time"].time()), axis=1
+        )
+        self.date = self.df["Date"].mode()[0]
 
         # geo data
-        self.rows = df.get(
+        self.rows = self.df.get(
             [
                 "IS_Latitude",
                 "IS_Longitude",
@@ -46,7 +50,7 @@ class TDataFrame:
                 "KolBr_1",
                 "KolBr_2",
                 "Sklz_Smyk",
-                "Time",
+                "Timestamp",
                 "Velocity",
                 "IS_Cislo_sluzby",
             ]
@@ -71,16 +75,16 @@ class TDataFrame:
 
         # filter rows by time
         t1, t2 = map(
-            lambda time_str: datetime.strptime(time_str, "%H:%M:%S"), timestamp
+            lambda time_str: datetime.strptime(time_str, "%H:%M:%S").time(), timestamp
         )
-        r = r.loc[(t1 <= r["Time"]) & (r["Time"] <= t2)]
+        r = r.loc[(t1 <= r["Timestamp"].dt.time) & (r["Timestamp"].dt.time <= t2)]
 
         # select relevant columns - it is a mess, but it works (afterthought)
         self.rows_filtered = list(
             zip(
                 r["IS_Latitude"],
                 r["IS_Longitude"],
-                r["Time"],
+                r["Timestamp"],
                 r["Velocity"],
                 r["IS_Cislo_sluzby"],
                 r["Zvonec"],
@@ -117,7 +121,7 @@ class TDataFrame:
                 <table style="width: 150px;">
                     <tr>
                         <td>Date:</td>
-                        <td>{datetime.strftime('%d.%m.%Y', self.date)}</td>
+                        <td>{datetime.strftime('%d.%m.%Y', r[2])}</td>
                     </tr>
                     <tr>
                         <td>Time:</td>
