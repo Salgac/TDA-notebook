@@ -16,11 +16,11 @@ class TEvent:
                 <table style="width: 150px;">
                     <tr>
                         <td>Date:</td>
-                        <td>{time.strftime('%d.%m.%Y', self.date)}</td>
+                        <td>{self.date_s()}</td>
                     </tr>
                     <tr>
                         <td>Time:</td>
-                        <td>{self.start_time.strftime('%H:%M:%S')} - {self.end_time.strftime('%H:%M:%S')}</td>
+                        <td>{self.time_diff_s()}</td>
                     </tr>
                     <tr>
                         <td>Line:</td>
@@ -36,7 +36,7 @@ class TEvent:
                     </tr>
                     <tr>
                         <td>Speed:</td>
-                        <td>{self.points[0][3]} - {self.points[-1][3]}</td>
+                        <td>{self.speed_s()}</td>
                     </tr>
                     <tr>
                         <td>Diff:</td>
@@ -44,6 +44,18 @@ class TEvent:
                     </tr>
                 </table>
                 """
+
+    def get_title(self):
+        return f"{self.vehicle}, {normalize_line(self.points[0][4])}, {self.date_s()} {self.time_diff_s()}"
+
+    def time_diff_s(self):
+        return f"{self.start_time.strftime('%H:%M:%S')} - {self.end_time.strftime('%H:%M:%S')}"
+
+    def date_s(self):
+        return time.strftime("%d.%m.%Y", self.date)
+
+    def speed_s(self):
+        return f"{self.points[0][3]} - {self.points[-1][3]}"
 
     def speed_diff(self):
         return self.points[0][3] - self.points[-1][3]
