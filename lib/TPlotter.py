@@ -6,12 +6,16 @@ from matplotlib.collections import LineCollection
 
 
 class TPlotter:
-    def __init__(self) -> None:
-        self.colors = {"No EMB": "green", "EMB_1": "blue", "EMB_2": "red"}
 
-    def plot_events(self, events):
+    def __init__(self, events) -> None:
+        self.colors = {"No EMB": "green", "EMB_1": "blue", "EMB_2": "red"}
+        plt.rcParams["figure.figsize"] = [8, 6]
+        self.events = events
+        self.plots = []
+
+    def plot(self):
         # plot speed/time per event
-        for event in events:
+        for event in self.events:
             df = self.extract_data(event)
 
             # Create segments for LineCollection
@@ -29,7 +33,6 @@ class TPlotter:
                 ax.add_collection(lc)
 
             # Plot the LineCollection
-            ax.autoscale()
             ax.margins(0.1)
 
             # Segment the data based on 'slip' changes
@@ -60,7 +63,16 @@ class TPlotter:
 
             # Show the plot
             plt.tight_layout()
+
+            self.plots.append(plt.gcf())
             plt.show()
+
+    def save(self):
+        # save
+        for plot, event in zip(self.plots, self.events):
+            plot.savefig(
+                f"data/img/plt_{event.get_filename()}.png", bbox_inches="tight", dpi=100
+            )
 
     def extract_data(self, event):
         # extract data

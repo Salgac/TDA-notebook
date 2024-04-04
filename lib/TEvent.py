@@ -48,11 +48,17 @@ class TEvent:
     def get_title(self):
         return f"{self.vehicle}, {normalize_line(self.points[0][4])}, {self.date_s()} {self.time_diff_s()}"
 
+    def get_filename(self):
+        return f"{self.vehicle}_{self.date_s()}_{self.start_s()}"
+
     def time_diff_s(self):
         return f"{self.start_time.strftime('%H:%M:%S')} - {self.end_time.strftime('%H:%M:%S')}"
 
     def date_s(self):
         return self.start_time.strftime("%d.%m.%Y")
+
+    def start_s(self):
+        return self.start_time.strftime("%H:%M:%S")
 
     def speed_s(self):
         return f"{self.points[0][3]} - {self.points[-1][3]}"
