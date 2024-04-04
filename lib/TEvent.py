@@ -1,4 +1,4 @@
-import time
+from datetime import datetime
 
 
 class TEvent:
@@ -52,7 +52,7 @@ class TEvent:
         return f"{self.start_time.strftime('%H:%M:%S')} - {self.end_time.strftime('%H:%M:%S')}"
 
     def date_s(self):
-        return time.strftime("%d.%m.%Y", self.date)
+        return self.date.strftime("%d.%m.%Y")
 
     def speed_s(self):
         return f"{self.points[0][3]} - {self.points[-1][3]}"

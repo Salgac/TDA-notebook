@@ -1,4 +1,3 @@
-import time
 import folium
 import ast
 from folium.plugins import HeatMap

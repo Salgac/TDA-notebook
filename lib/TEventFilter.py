@@ -1,5 +1,4 @@
 import pandas as pd
-import time
 from datetime import datetime
 from TEvent import TEvent
 
@@ -12,7 +11,7 @@ def detect_events(data):
         current_event = None
         for record in d.rows_filtered:
             # Extract into TEvent
-            timestamp = datetime.fromtimestamp(time.mktime(record[2]))
+            timestamp = record[2]
             if (
                 current_event is None
                 or (timestamp - current_event.end_time) > time_window

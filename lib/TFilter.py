@@ -1,4 +1,4 @@
-import time
+from datetime import datetime
 
 
 def filter_tdfs(tdfs, line, date, vehicle):
@@ -9,7 +9,7 @@ def filter_tdfs(tdfs, line, date, vehicle):
     data = data if l3 == "*" else [df for df in data if str(df.line_mode) == l3]
 
     # dates
-    d1, d2 = map(lambda date_str: time.strptime(date_str, "%d.%m.%Y"), date)
+    d1, d2 = map(lambda date_str: datetime.strptime(date_str, "%d.%m.%Y"), date)
     data = list(filter(lambda df: d1 <= df.date <= d2, data))
 
     # vehicle

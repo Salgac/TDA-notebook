@@ -1,4 +1,4 @@
-import time
+from datetime import datetime
 import ast
 from geopy.distance import geodesic
 
@@ -30,9 +30,9 @@ class TDataFrame:
             self.line_mode = 0
 
         # date-time conversion
-        self.date = time.strptime(self.date, "%d.%m.%Y")
+        self.date = datetime.strptime(self.date, "%d.%m.%Y")
         self.df.loc[:, "Time"] = self.df["Time"].apply(
-            lambda x: time.strptime(x, "%H:%M:%S,%f")
+            lambda x: datetime.strptime(x, "%H:%M:%S,%f")
         )
 
         # geo data
@@ -70,10 +70,12 @@ class TDataFrame:
         r = self.rows.loc[self.df[column_type] == 1]
 
         # filter rows by time
-        t1, t2 = map(lambda time_str: time.strptime(time_str, "%H:%M:%S"), timestamp)
+        t1, t2 = map(
+            lambda time_str: datetime.strptime(time_str, "%H:%M:%S"), timestamp
+        )
         r = r.loc[(t1 <= r["Time"]) & (r["Time"] <= t2)]
 
-        # select relevant columns
+        # select relevant columns - it is a mess, but it works (afterthought)
         self.rows_filtered = list(
             zip(
                 r["IS_Latitude"],
@@ -81,6 +83,12 @@ class TDataFrame:
                 r["Time"],
                 r["Velocity"],
                 r["IS_Cislo_sluzby"],
+                r["Zvonec"],
+                r["Sklz_Smyk"],
+                r["NudzBr_1"],
+                r["NudzBr_2"],
+                r["KolBr_1"],
+                r["KolBr_2"],
             )
         )
 
@@ -109,11 +117,11 @@ class TDataFrame:
                 <table style="width: 150px;">
                     <tr>
                         <td>Date:</td>
-                        <td>{time.strftime('%d.%m.%Y', self.date)}</td>
+                        <td>{datetime.strftime('%d.%m.%Y', self.date)}</td>
                     </tr>
                     <tr>
                         <td>Time:</td>
-                        <td>{time.strftime( '%H:%M:%S', r[2])}</td>
+                        <td>{datetime.strftime( '%H:%M:%S', r[2])}</td>
                     </tr>
                     <tr>
                         <td>Line:</td>
