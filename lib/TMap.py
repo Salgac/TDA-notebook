@@ -9,7 +9,11 @@ from folium.plugins import MarkerCluster
 
 class TMap:
     def __init__(self):
-        self.m = folium.Map(prefer_canvas=True)
+        self.m = folium.Map(
+            prefer_canvas=True,
+            height=750,
+            width=1000,
+        )
         self.n = 0
 
     def save(self):
