@@ -48,7 +48,22 @@ class TPlotter:
             for seg_start, seg_end in segments:
                 seg_df = df.iloc[seg_start : seg_end + 1]
                 color = "red" if seg_df["Slip"].iloc[0] == 1 else "none"
-                plt.fill_between(seg_df["x"], 0, plt.ylim()[1], color=color, alpha=0.1)
+                plt.fill_between(seg_df["x"], 0, 55, color=color, alpha=0.1)
+
+            # Segment the data based on 'bell' changes
+            segments = []
+            start_idx = 0
+            for i in range(1, len(df)):
+                if df["Bell"][i] != df["Bell"][i - 1]:
+                    segments.append((start_idx, i - 1))
+                    start_idx = i
+            segments.append((start_idx, len(df) - 1))
+
+            # Plot each segment separately with corresponding background color
+            for seg_start, seg_end in segments:
+                seg_df = df.iloc[seg_start : seg_end + 1]
+                color = "olive" if seg_df["Bell"].iloc[0] == 1 else "none"
+                plt.fill_between(seg_df["x"], 0, 55, color=color, alpha=0.1)
 
             # Set plot labels and title
             plt.xlabel("Time")
@@ -106,11 +121,12 @@ class TPlotter:
 
     def legend(self):
         # Create legend
-        fill_handle = plt.Rectangle(
+        slip_handle = plt.Rectangle(
             (0, 0), 1, 1, fc="red", alpha=0.1, label="Slip / Slide"
         )
+        bell_handle = plt.Rectangle((0, 0), 1, 1, fc="olive", alpha=0.1, label="Bell")
         legend_handles = [
             plt.Line2D([0, 1], [0, 1], color=color, linewidth=2, label=label)
             for label, color in self.colors.items()
         ]
-        return legend_handles + [fill_handle]
+        return legend_handles + [slip_handle, bell_handle]
