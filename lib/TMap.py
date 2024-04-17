@@ -8,17 +8,21 @@ from folium.plugins import MarkerCluster
 
 
 class TMap:
-    def __init__(self):
+
+    def __init__(self, location, zoom):
         self.m = folium.Map(
             prefer_canvas=True,
             height=750,
             width=1000,
+            location=location,
+            zoom_start=zoom,
         )
         self.n = 0
 
-    def save(self):
+    def save(self, center):
         # set the zoom to the maximum possible
-        self.m.fit_bounds(self.m.get_bounds())
+        if center:
+            self.m.fit_bounds(self.m.get_bounds())
 
         # layer control
         # todo folium.LayerControl().add_to(self.m)
