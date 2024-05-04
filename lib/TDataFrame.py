@@ -16,7 +16,10 @@ class TDataFrame:
         # line data
         mode_series = df["IS_Cislo_sluzby"].mode()
         if not mode_series.empty:
-            self.line = str(mode_series.iloc[0])
+            try:
+                self.line = str(int(mode_series.iloc[0]))
+            except:
+                self.line = str(mode_series.iloc[0])
         else:
             self.line = "0000"
         try:
