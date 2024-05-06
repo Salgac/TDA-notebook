@@ -1,5 +1,6 @@
 from datetime import datetime
 
+import TWeather as weather
 
 class TEvent:
 
@@ -42,6 +43,10 @@ class TEvent:
                         <td>Diff:</td>
                         <td>{self.speed_diff()}</td>
                     </tr>
+                    <tr>
+                        <td>Weather:</td>
+                        <td>{self.weather_detail()}</td>
+                    </tr>
                 </table>
                 """
 
@@ -65,6 +70,10 @@ class TEvent:
 
     def speed_diff(self):
         return self.points[0][3] - self.points[-1][3]
+
+    def weather_detail(self):
+        d = weather.byTimestamp(self.start_time)
+        return f"{d['conditions']}, {d['temp']}°C, {d['precip']}mm"
 
 
 def normalize_line(line):
