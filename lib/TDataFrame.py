@@ -74,7 +74,11 @@ class TDataFrame:
     # row filters
     def filter_rows(self, type, timestamp):
         column_type = self.TDataTypeMapper.get(type, "")
-        r = self.rows.loc[self.df[column_type] == 1]
+
+        # filter by type
+        r = self.rows
+        if column_type != "":
+            r = r.loc[self.df[column_type] == 1]
 
         # filter rows by time
         t1, t2 = map(

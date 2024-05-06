@@ -8,3 +8,4 @@ class TDataType(Enum):
     TRACKB_2 = auto()
     BELL = auto()
     SLIP_SLIDE = auto()
+    ALL = auto()
