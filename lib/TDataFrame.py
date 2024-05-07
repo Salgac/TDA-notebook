@@ -3,7 +3,7 @@ import pandas as pd
 import ast
 from geopy.distance import geodesic
 
-from TDataType import TDataType as tdt
+import TDataType as tdt
 
 
 class TDataFrame:
@@ -60,20 +60,10 @@ class TDataFrame:
         ).dropna()
         self.rows_filtered = []
 
-        # column data filter mapper
-        self.TDataTypeMapper = {
-            tdt.EMB_1: "NudzBr_1",
-            tdt.EMB_2: "NudzBr_2",
-            tdt.TRACKB_1: "KolBr_1",
-            tdt.TRACKB_2: "KolBr_2",
-            tdt.BELL: "Zvonec",
-            tdt.SLIP_SLIDE: "Sklz_Smyk",
-        }
-
     ####################
     # row filters
     def filter_rows(self, type, timestamp):
-        column_type = self.TDataTypeMapper.get(type, "")
+        column_type = tdt.Mapper.get(type, "")
 
         # filter by type
         r = self.rows

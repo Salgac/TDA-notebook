@@ -9,3 +9,13 @@ class TDataType(Enum):
     BELL = auto()
     SLIP_SLIDE = auto()
     ALL = auto()
+
+
+Mapper = {
+    TDataType.EMB_1: "NudzBr_1",
+    TDataType.EMB_2: "NudzBr_2",
+    TDataType.TRACKB_1: "KolBr_1",
+    TDataType.TRACKB_2: "KolBr_2",
+    TDataType.BELL: "Zvonec",
+    TDataType.SLIP_SLIDE: "Sklz_Smyk",
+}
