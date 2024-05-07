@@ -1,6 +1,9 @@
 import pandas as pd
 from datetime import datetime
+
 from TEvent import TEvent
+import TWeather as weather
+import TWeatherType as twt
 
 
 def detect_events(data):
@@ -38,3 +41,16 @@ def filter_diff(events, limit):
 
 def filter_embs(events):
     return [event for event in events if event.points[-1][3] == 0]
+
+
+def filter_weather(events, type):
+    return [
+        event
+        for event in events
+        if get_weather_type(type)
+        in (weather.byTimestamp(event.points[0][2])["conditions"]).split(", ")
+    ]
+
+
+def get_weather_type(type):
+    return twt.Mapper.get(type, "")
