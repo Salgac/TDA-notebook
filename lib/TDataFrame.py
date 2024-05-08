@@ -62,19 +62,13 @@ class TDataFrame:
 
     ####################
     # row filters
-    def filter_rows(self, type, timestamp):
+    def filter_rows(self, type):
         column_type = tdt.Mapper.get(type, "")
 
         # filter by type
         r = self.rows
         if column_type != "":
             r = r.loc[self.df[column_type] == 1]
-
-        # filter rows by time
-        t1, t2 = map(
-            lambda time_str: datetime.strptime(time_str, "%H:%M:%S").time(), timestamp
-        )
-        r = r.loc[(t1 <= r["Timestamp"].dt.time) & (r["Timestamp"].dt.time <= t2)]
 
         # select relevant columns - it is a mess, but it works (afterthought)
         self.rows_filtered = list(

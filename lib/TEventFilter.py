@@ -43,6 +43,16 @@ def filter_embs(events):
     return [event for event in events if event.points[-1][3] == 0]
 
 
+def filter_time(events, time):
+    # filter rows by time
+    t1, t2 = map(lambda time_str: datetime.strptime(time_str, "%H:%M:%S").time(), time)
+    return [
+        event
+        for event in events
+        if (t1 <= event.start_time.time()) & (event.start_time.time() <= t2)
+    ]
+
+
 def filter_weather(events, type):
     return [
         event
