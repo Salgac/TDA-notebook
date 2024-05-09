@@ -2,14 +2,31 @@ from datetime import datetime
 
 import TWeather as weather
 
+
 class TEvent:
 
     def __init__(self, start_time, end_time, vehicle, points):
         self.start_time = start_time
         self.end_time = end_time
-        self.duration = start_time - end_time
+        self.duration = 0
         self.vehicle = vehicle
         self.points = points
+
+        # weather
+        w = weather.byTimestamp(self.start_time)
+        self.weather = {
+            key: w[key]
+            for key in [
+                "conditions",
+                "temp",
+                "precip",
+                "dew",
+                "humidity",
+                "windspeed",
+                "visibility",
+            ]
+            if key in w
+        }
 
     ####################
     def get_popup(self):
@@ -22,6 +39,10 @@ class TEvent:
                     <tr>
                         <td>Time:</td>
                         <td>{self.time_diff_s()}</td>
+                    </tr>
+                    <tr>
+                        <td>Duration:</td>
+                        <td>{self.get_duration()}s</td>
                     </tr>
                     <tr>
                         <td>Line:</td>
@@ -72,8 +93,12 @@ class TEvent:
         return self.points[0][3] - self.points[-1][3]
 
     def weather_detail(self):
-        d = weather.byTimestamp(self.start_time)
-        return f"{d['conditions']}, {d['temp']}°C, {d['precip']}mm"
+        w = self.weather
+        return f"{w['conditions']}, {w['temp']}°C, {w['precip']}mm"
+
+    def get_duration(self):
+        self.duration = (self.end_time - self.start_time).total_seconds()
+        return self.duration
 
 
 def normalize_line(line):
