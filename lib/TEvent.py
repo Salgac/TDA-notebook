@@ -6,6 +6,7 @@ import TWeather as weather
 class TEvent:
 
     def __init__(self, start_time, end_time, vehicle, points):
+        self.date = start_time.strftime("%d.%m.%Y")
         self.start_time = start_time
         self.end_time = end_time
         self.duration = 0
@@ -81,7 +82,7 @@ class TEvent:
         return f"{self.start_time.strftime('%H:%M:%S')} - {self.end_time.strftime('%H:%M:%S')}"
 
     def date_s(self):
-        return self.start_time.strftime("%d.%m.%Y")
+        return self.date
 
     def start_s(self):
         return self.start_time.strftime("%H:%M:%S")
