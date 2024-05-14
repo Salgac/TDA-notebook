@@ -1,0 +1,7 @@
+folium
+geopandas
+jsonpickle
+matplotlib
+pandas
+plotly
+seaborn
