@@ -1,0 +1,3723 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.109471149999997,
+                    48.095851749999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.108388700000003,
+                    48.10136118333333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.109534,
+                    48.099386800000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1092321,
+                    48.10000869999998
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1096068,
+                    48.0975663
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.109660075,
+                    48.098302175
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.10759975,
+                    48.106268299999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.107925475,
+                    48.110662899999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1078115,
+                    48.10973089999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.15051245,
+                    48.1566003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.15132605,
+                    48.15665955
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.15573235,
+                    48.15698745
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.15656585,
+                    48.1570501
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1760619,
+                    48.1585015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.17728565,
+                    48.158594449999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.174212150000002,
+                    48.1583634
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.171605800000002,
+                    48.158168950000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.172516950000002,
+                    48.1582393
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1723344,
+                    48.15822565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.168406400000002,
+                    48.15793275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1669286,
+                    48.157821999999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1659827,
+                    48.1577519
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1662524,
+                    48.15777219999998
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.163028175,
+                    48.15753145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1609532,
+                    48.15737669999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.159988,
+                    48.1573049
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.182529799999998,
+                    48.189455800000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.18336695,
+                    48.18951654999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1771149,
+                    48.18816224999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1775575,
+                    48.18837585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1699823,
+                    48.18522364999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.174067125,
+                    48.18686685
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.17248895,
+                    48.186182349999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0863023,
+                    48.1426264
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.084912449999997,
+                    48.1428943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.08128215,
+                    48.14368985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0781346,
+                    48.1451908
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0761369,
+                    48.1466609
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.075091399999998,
+                    48.147637849999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0749005,
+                    48.147735
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0462142,
+                    48.177471249999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.046006275,
+                    48.177632474999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0402758,
+                    48.1820679
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.04205085,
+                    48.180697550000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.04190085,
+                    48.18081579999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0440726,
+                    48.17912825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0428699,
+                    48.18006224999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0430654,
+                    48.179895499999986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0433298,
+                    48.1797318
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0434382,
+                    48.1795993
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.043688,
+                    48.1794108
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0343504,
+                    48.19372234999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.03376535,
+                    48.1951861
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.03770365,
+                    48.185317149999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.036525150000003,
+                    48.18830605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.035709716666666,
+                    48.190283283333336
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.067769900000002,
+                    48.14823835
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0707636,
+                    48.148202649999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.046687760000005,
+                    48.16653838
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0469436,
+                    48.1668442
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0464935,
+                    48.1650937
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.046367099999998,
+                    48.165658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0461339,
+                    48.1661924
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.046320233333333,
+                    48.166132799999986
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0481992,
+                    48.162702550000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.047613249999998,
+                    48.16352024999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0490693,
+                    48.17427419999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0496084,
+                    48.1697515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0495575,
+                    48.1703628
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0547105,
+                    48.15472659999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.05167315,
+                    48.158683800000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.05123165,
+                    48.15930304999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.05321185,
+                    48.15652275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.052650399999997,
+                    48.1573123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0571351,
+                    48.15382895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.059251099999997,
+                    48.15332995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0582915,
+                    48.15355604999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.06136425,
+                    48.15211975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0609544,
+                    48.15261374999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.062770825,
+                    48.149961925
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.063398749999998,
+                    48.14902825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.064028675,
+                    48.148505525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1502246,
+                    48.178452050000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1522631,
+                    48.17914225
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.153599166666666,
+                    48.17959048333333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.157078475,
+                    48.1807618
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.163138099999998,
+                    48.182808449999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.16285935,
+                    48.18271096666666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.16130755,
+                    48.17707915
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1615629,
+                    48.1773348
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.160428433333333,
+                    48.17975486666666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.16024535,
+                    48.18182769999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.162370850000002,
+                    48.179810950000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1608612,
+                    48.181963200000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.161246024999997,
+                    48.18204947500001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.161566125,
+                    48.18121624999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1619886,
+                    48.180601
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.16258234,
+                    48.1786031
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1637451,
+                    48.178112799999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1630453,
+                    48.178764900000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.16336408,
+                    48.17864902
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1618492,
+                    48.1786199
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.116856975,
+                    48.1279323125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1137022,
+                    48.12318435
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1138696,
+                    48.1233611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1148783,
+                    48.124394800000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1154121,
+                    48.12493599999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.141609216666666,
+                    48.15584394999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1270989,
+                    48.172498700000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.12734595,
+                    48.17376324999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.12698395,
+                    48.16668324999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.127123150000003,
+                    48.1702642
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.127378887499997,
+                    48.16869805
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1223025,
+                    48.160043575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.12524335,
+                    48.16382745
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.123796974999998,
+                    48.161914149999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.12423935,
+                    48.162506050000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1352106,
+                    48.16557605
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.135387525,
+                    48.165761875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.133464625000002,
+                    48.163766499999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.136507925,
+                    48.1552009
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1319197,
+                    48.16216671666667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.130521199999997,
+                    48.1606948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.133122999999998,
+                    48.155836
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1342344,
+                    48.154997650000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.129496850000002,
+                    48.159657425000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.128061600000002,
+                    48.158275599999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.127946225,
+                    48.158063
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1305418,
+                    48.157764799999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.131438600000003,
+                    48.15718551
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.129345649999998,
+                    48.15801055
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.129852749999998,
+                    48.157945549999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.126998,
+                    48.1573532
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.09240185,
+                    48.1412091
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.092017675,
+                    48.14152125
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.091697233333335,
+                    48.14167066666667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.091424,
+                    48.14170089999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0941062,
+                    48.1405147
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.095669299999997,
+                    48.140225349999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.09539625,
+                    48.14026255
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0986123,
+                    48.1432545
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.098581000000003,
+                    48.14000395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.0965838,
+                    48.1428648
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.106579950000004,
+                    48.13979945
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1041439,
+                    48.139782049999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1051298,
+                    48.139779250000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.10468305,
+                    48.139781299999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.101622725,
+                    48.139877500000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.10485415,
+                    48.144879
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1026861,
+                    48.1442332
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.10333935,
+                    48.14455554999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1030091,
+                    48.144529000000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1009109,
+                    48.1437797
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.117001000000002,
+                    48.1334325
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1169967,
+                    48.13317585
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.116995199999998,
+                    48.133928649999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.11696835,
+                    48.1344012
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.117017158333333,
+                    48.13582960833333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1169748,
+                    48.13484775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.116992825,
+                    48.135302825
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1108263,
+                    48.14772604999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.113802460000002,
+                    48.14949896
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.113324725,
+                    48.149055649999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.112994325000003,
+                    48.148804975
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.114710266666666,
+                    48.14668253333334
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.116400900000002,
+                    48.14822245
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1156014,
+                    48.147487174999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.114957099999998,
+                    48.1525613
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.11390655,
+                    48.15294641666666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.120058375,
+                    48.15732070000001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.120431933333332,
+                    48.157807150000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1247792,
+                    48.155558599999985
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1250259,
+                    48.155748816666666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1244544,
+                    48.1552813
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1245975,
+                    48.1554325
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.12371132,
+                    48.1547275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.12408226,
+                    48.15500426
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.123323550000002,
+                    48.15442415
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1229517,
+                    48.1541173
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.117232100000003,
+                    48.149590599999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.122053914285715,
+                    48.15356324285714
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1212491,
+                    48.15390839
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.121754322222227,
+                    48.15341752222221
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1206599,
+                    48.154146
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.119621375,
+                    48.1560307
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1193934,
+                    48.1553311
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.118167624999998,
+                    48.15200867499999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1177796,
+                    48.1522597
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1179471,
+                    48.1523756
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.119103295000002,
+                    48.15428431000001
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.118527142857147,
+                    48.15288493214286
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1187979,
+                    48.1535948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1197513,
+                    48.1544236
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.120561233333333,
+                    48.15231896666666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1204291,
+                    48.1522076
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1207825,
+                    48.1524764
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.119166125,
+                    48.15126635
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.119649,
+                    48.15162126666666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.11987315,
+                    48.1517887
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.117822826666668,
+                    48.150678553333336
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1164135,
+                    48.1514151
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.11675974,
+                    48.15186946666666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.109539933333334,
+                    48.14135866666667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.109453375,
+                    48.141746575
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.110299333333334,
+                    48.1400554
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.10973473333333,
+                    48.14052512222223
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.109581400000003,
+                    48.139999487500006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.116914426785716,
+                    48.14078418571428
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.115031549999998,
+                    48.142146249999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.11554275,
+                    48.14181035
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.115744,
+                    48.1417017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1153277,
+                    48.141968
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.11192815,
+                    48.14288085
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.111373200000003,
+                    48.1426327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.11093765,
+                    48.14244795
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.111127250000003,
+                    48.1425292
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.109064699999998,
+                    48.145636800000005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.10928345,
+                    48.145613049999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.109296899999997,
+                    48.146963850000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.10737325,
+                    48.1458440375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.107823299999996,
+                    48.14601517142857
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1080981,
+                    48.1457833
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.10873165,
+                    48.14667095
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.10836625,
+                    48.146467049999984
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1135549,
+                    48.145601899999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.11034775,
+                    48.14548979999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.11306485,
+                    48.143375324999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.113517220000002,
+                    48.14316283999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.111459170000003,
+                    48.14523757
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.112903988888892,
+                    48.144082911111106
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.112705644117653,
+                    48.14475011764706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1120795,
+                    48.1449674
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1122141,
+                    48.1402848
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1141149,
+                    48.1405956
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1172476,
+                    48.1382665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.10752165,
+                    48.1557892
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.107724349999998,
+                    48.155484262499996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.111104183333335,
+                    48.15418695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.10992985,
+                    48.154699449999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1102165,
+                    48.1545877
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1094768,
+                    48.154831099999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1090291,
+                    48.1549612
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.10868285,
+                    48.15506365
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1069649,
+                    48.15806259999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.14426995,
+                    48.1749854
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1456623,
+                    48.176304875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.14140905,
+                    48.17201145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.141779956249998,
+                    48.172253756249994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.144491725,
+                    48.171135025
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.143548250000002,
+                    48.171437749999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.13785235,
+                    48.16832305
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1373576,
+                    48.16781375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.140063325,
+                    48.17061765
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Traffic Light Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.138987075000003,
+                    48.16949179999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.128169200000002,
+                    48.17793195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.128009900000002,
+                    48.17730404999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1303082,
+                    48.18264054999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.129739450000002,
+                    48.182125600000006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1295181,
+                    48.1818984
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1286729,
+                    48.1795668
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1290197,
+                    48.180692300000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.13756755,
+                    48.1899672
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1389317,
+                    48.19118232499999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.134547366666666,
+                    48.1882665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.13498945,
+                    48.188676349999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.135476699999998,
+                    48.1882249
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1351924,
+                    48.1879783
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1350261,
+                    48.1877722
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.134621,
+                    48.1892596
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1328683,
+                    48.18510666666666
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.133238149999997,
+                    48.1856223
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.133717316666665,
+                    48.18612881666667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1665693,
+                    48.216329
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.16394741666667,
+                    48.21507195
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.158897866666667,
+                    48.21200193333333
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1567962,
+                    48.211336700000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.155065,
+                    48.211401699999996
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.14996825,
+                    48.207230100000004
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1505124,
+                    48.207818366666665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1508211,
+                    48.208085725
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.144483649999998,
+                    48.19643654999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.14331925,
+                    48.19520574999999
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.149510116666665,
+                    48.203028749999994
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.147182700000002,
+                    48.199285849999995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Uncontrolled Intersection"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.1478075,
+                    48.20002995
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "type": "Pedestrian Crossing"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.14768875,
+                    48.199840550000005
+                ]
+            }
+        }
+    ]
+}
