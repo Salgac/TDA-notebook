@@ -139,3 +139,5 @@ map.html
 geckodriver.log
 data/output.json
 data/events.csv
+
+cache/*
