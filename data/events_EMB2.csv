@@ -1,0 +1,7 @@
+date,start_time,end_time,duration,vehicle,weather,lat,lon
+20.10.2022,2022-10-20 06:52:41.300,2022-10-20 06:52:45.600,4.3,7528,"{'conditions': 'Clear', 'temp': 6.4, 'precip': 0.0, 'dew': 2.3, 'humidity': 75.25, 'windspeed': 3.8, 'visibility': 39.5}",48.141172,17.116513
+10.10.2022,2022-10-10 15:09:15.100,2022-10-10 15:09:19.000,3.9,7422,"{'conditions': 'Partially cloudy', 'temp': 16.6, 'precip': 0.0, 'dew': 6.9, 'humidity': 52.64, 'windspeed': 8.1, 'visibility': 54.5}",48.187657,17.03677
+03.10.2022,2022-10-03 16:16:14.800,2022-10-03 16:16:17.900,3.1,7407,"{'conditions': 'Partially cloudy', 'temp': 14.2, 'precip': 0.0, 'dew': 5.7, 'humidity': 56.53, 'windspeed': 15.2, 'visibility': 47.7}",48.152457,17.120728
+11.10.2022,2022-10-11 19:43:03.200,2022-10-11 19:43:11.000,7.8,7409,"{'conditions': 'Partially cloudy', 'temp': 14.6, 'precip': 0.0, 'dew': 9.4, 'humidity': 70.92, 'windspeed': 10.5, 'visibility': 28.8}",48.154212,17.111065
+29.10.2022,2022-10-29 15:14:32.600,2022-10-29 15:14:47.600,15.0,7401,"{'conditions': 'Overcast', 'temp': 11.9, 'precip': 0.0, 'dew': 11.8, 'humidity': 99.49, 'windspeed': 3.8, 'visibility': 7.1}",48.178472,17.150268
+27.10.2022,2022-10-27 14:39:10.900,2022-10-27 14:39:14.000,3.1,7517,"{'conditions': 'Overcast', 'temp': 12.4, 'precip': 0.0, 'dew': 12.3, 'humidity': 99.59, 'windspeed': 3.6, 'visibility': 0.2}",48.170912,17.127017
