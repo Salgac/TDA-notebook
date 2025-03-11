@@ -15,18 +15,26 @@ def detect_events(data):
         for record in d.rows_filtered:
             # Extract into TEvent
             timestamp = record[2]
-            if (
-                current_event is None
-                or current_event.end_time > timestamp
-                or (timestamp - current_event.end_time) > time_window
-            ):
-                # Start a new event
-                current_event = TEvent(timestamp, timestamp, d.vehicle, [record])
-                events.append(current_event)
-            else:
-                # Add to the current event
-                current_event.points.append(record)
-                current_event.end_time = timestamp
+
+            try:
+                timestamp = pd.Timestamp(timestamp)  # Ensures it's a valid datetime
+
+                if (
+                    current_event is None
+                    or current_event.end_time > timestamp
+                    or (timestamp - current_event.end_time) > time_window
+                ):
+                    # Start a new event
+                    current_event = TEvent(timestamp, timestamp, d.vehicle, [record])
+                    events.append(current_event)
+                else:
+                    # Add to the current event
+                    current_event.points.append(record)
+                    current_event.end_time = timestamp
+
+            except Exception as e:
+                print(f"🚨 Skipping invalid timestamp: {timestamp} → {e}")
+                continue  # Skip this record
 
     return events
 
